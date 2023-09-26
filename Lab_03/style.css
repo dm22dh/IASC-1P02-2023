@@ -1,5 +1,9 @@
 #firstHeader{
   color: red;
   font-weight: bold;
-  background: green;
+}
+
+.greenText{
+  color: green;
+  font-style: italic;
 }
