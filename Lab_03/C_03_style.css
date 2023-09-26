@@ -1,0 +1,10 @@
+/* Challenge 03 CSS */
+
+p{
+  font: Arial;
+  text-transform: uppercase;
+}
+
+img{
+  border: 1px solid black;
+}
