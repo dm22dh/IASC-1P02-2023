@@ -1,0 +1,27 @@
+.secondDiv {
+  padding-top: 20%;
+  border: 2px dotted purple;
+  text-align: center;
+}
+.thirdDiv {
+  color: green;
+  text-align: center;
+  font-size: 12px;
+}
+.fourthDiv {
+  color: orange;
+  font-size: 30px;
+}
+.fourthDiv span {
+  color: red;
+  vertical-align: super;
+}
+.fifthDiv {
+  text-align: right;
+  color: purple;
+  font-size: 12px;
+}
+
+.fifthDiv span {
+  color: yellow;
+}
