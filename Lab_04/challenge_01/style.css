@@ -1,19 +1,23 @@
 body{
   background-color: blue;
 }
+.firstDiv {
+  margin: 8% auto;
+  width: 80%;
+}
 
-.secondDiv{
+.secondDiv {
   border: 4px solid black;
   color: red;
 }
 
-.thirdDiv{
+.thirdDiv {
   border: 2px green dashed;
   margin: 20px 20px 20px 20px;
-  font-family:rial, Helvetica, sans-serif;
+  font-family: rial, Helvetica, sans-serif;
 }
 
-.fourthDiv img{
+.fourthDiv img {
   padding: 15px;
   border: 2px yellow dashed;
 }
