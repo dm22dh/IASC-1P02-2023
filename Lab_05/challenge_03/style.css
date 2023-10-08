@@ -9,20 +9,20 @@ body{
   margin: 0 auto;
 }
 
-#content1{
-  float: left;
+#content1, #content2{
   width: 250px;
   height: 240px;
-  background-color: blue;
   padding-top: 10px;
+}
+
+#content1{
+  float: left;
+  background-color: blue;
 }
 
 #content2{
   float: right;
-  width: 250px;
-  height: 240px;
   background-color: red;
-  padding-top: 10px;
 }
 
 #content3{
