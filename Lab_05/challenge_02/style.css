@@ -15,7 +15,6 @@ body{
 	height:80px;
 	text-align:center;
   background-color: red;
-
 }
 
 #leftbody{
@@ -24,7 +23,6 @@ body{
 	height: 50px;
 	background-color: pink;
 	padding:10px;
-
 }
 
 #rightbody{
@@ -37,7 +35,7 @@ body{
 
 #centerbody{
   background-color: blue;
-  	height:500px;
+  height:500px;
 }
 
 #bottom{
