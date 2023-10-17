@@ -43,6 +43,10 @@ li {
   background-color: white;
 }
 
+.heading{
+  font-size: 30px;
+}
+
 #header {
   position: fixed;
   width: 790px;
