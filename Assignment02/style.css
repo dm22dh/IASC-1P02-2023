@@ -33,7 +33,7 @@ li {
   color: #34495e;
 }
 
-#bottom li {
+.bottom li {
   list-style: none;
 }
 
@@ -47,7 +47,7 @@ li {
   font-size: 30px;
 }
 
-.links{
+.heading, .leftbody, .bottom{
   text-transform: uppercase;
 }
 
@@ -79,7 +79,7 @@ li {
   color: #eaecee;
 }
 
-#bottom h3 {
+.bottom h3 {
   color: #2c3e50;
 }
 
@@ -95,7 +95,7 @@ li {
   padding-left: 25px;
 }
 
-#bottom {
+.bottom {
   height: 160px;
   clear: left;
   padding: 15px;
