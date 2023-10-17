@@ -1,5 +1,105 @@
-/* CSS for assignment 02 */
+/* CSS for Assignment 02 */
 
-.changeColor a{
-  color: red;
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 14px 0;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+a,
+p,
+li {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 13px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #eaecee;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+p,
+li {
+  color: #34495e;
+}
+
+#bottom li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 750px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#header {
+  position: fixed;
+  width: 740px;
+  height: 60px;
+  top: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: #abb2b9;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  top: 60px;
+}
+
+#leftbody {
+  float: left;
+  width: 150px;
+  height: 800px;
+  background-color: #34495e;
+  padding: 15px;
+}
+
+#leftbody h2 {
+  color: #eaecee;
+}
+
+#bottom h3 {
+  color: #2c3e50;
+}
+
+#rightbody {
+  float: right;
+  width: 540px;
+  height: 800px;
+  background-color: #eaecee;
+  padding: 15px;
+}
+
+#rightbody ol {
+  padding-left: 15px;
+}
+
+#bottom {
+  height: 160px;
+  clear: left;
+  padding: 15px;
+  background-color: #d6dbdf;
+}
+
+.socialContent {
+  position: absolute;
+  bottom: 22px;
+  left: 180px;
 }
