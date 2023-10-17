@@ -20,7 +20,7 @@ a {
   display: block;
   margin-top: 10px;
   text-decoration: none;
-  color: #eaecee;
+  color: white;
 }
 
 ul,
@@ -76,7 +76,7 @@ li {
 }
 
 .leftbody h2 {
-  color: #eaecee;
+  color: #abb2b9;
 }
 
 .rightbody {
