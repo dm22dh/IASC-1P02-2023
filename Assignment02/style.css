@@ -96,7 +96,7 @@ img{
 }
 
 .bottom {
-  height: 160px;
+  height: 145px;
   clear: left;
   padding: 15px;
   background-color: #d6dbdf;
@@ -104,6 +104,6 @@ img{
 
 .socialContent {
   position: absolute;
-  bottom: 24px;
+  bottom: 9px;
   left: 180px;
 }
