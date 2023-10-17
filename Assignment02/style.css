@@ -37,14 +37,14 @@ li {
 }
 
 #wrapper {
-  width: 750px;
+  width: 800px;
   margin: 0 auto;
   background-color: white;
 }
 
 #header {
   position: fixed;
-  width: 740px;
+  width: 790px;
   height: 60px;
   top: 0;
   text-align: center;
@@ -76,14 +76,14 @@ li {
 
 #rightbody {
   float: right;
-  width: 540px;
+  width: 590px;
   height: 800px;
   background-color: #eaecee;
   padding: 15px;
 }
 
 #rightbody ol {
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 #bottom {
@@ -95,6 +95,6 @@ li {
 
 .socialContent {
   position: absolute;
-  bottom: 22px;
+  bottom: 21px;
   left: 180px;
 }
