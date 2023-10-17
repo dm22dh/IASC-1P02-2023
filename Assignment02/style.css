@@ -62,6 +62,10 @@ li {
   z-index: 1;
 }
 
+img{
+  border: 2px solid black;
+}
+
 #content {
   position: relative;
   top: 60px;
