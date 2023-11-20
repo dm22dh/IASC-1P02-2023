@@ -1,4 +1,4 @@
-function calculate(operation) {
+function calculations(operation) {
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
 
@@ -29,7 +29,7 @@ window.addEventListener('load', function() {
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function() {
             var operation = this.innerText;
-            calculate(operation);
+            calculations(operation);
         });
     }
 });
