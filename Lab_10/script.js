@@ -2,12 +2,6 @@ function calculate(operation) {
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
 
-    // Check if the input is a number
-    if (isNaN(num1) || isNaN(num2)) {
-        alert("Please enter valid numbers");
-        return;
-    }
-
     var result;
     if (operation === '+') {
         result = num1 + num2;
@@ -16,7 +10,6 @@ function calculate(operation) {
     } else if (operation === '*') {
         result = num1 * num2;
     } else if (operation === '/') {
-        // Check for division by zero
         if (num2 === 0) {
             alert("Cannot divide by zero");
             return;
@@ -27,7 +20,7 @@ function calculate(operation) {
         return;
     }
 
-    // Display the result
+    // Displaying the result
     document.getElementById('output').innerHTML = result;
 }
 
@@ -35,7 +28,6 @@ window.addEventListener('load', function() {
     var buttons = document.getElementsByTagName('button');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function() {
-            // Get the operation from the button's inner text
             var operation = this.innerText;
             calculate(operation);
         });
