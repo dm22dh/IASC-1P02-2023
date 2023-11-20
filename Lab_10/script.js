@@ -31,8 +31,7 @@ function calculate(operation) {
     document.getElementById('output').innerHTML = result;
 }
 
-// Attach event handlers to the buttons using a for loop
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     var buttons = document.getElementsByTagName('button');
     for (var i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', function() {
