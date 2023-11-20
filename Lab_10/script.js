@@ -11,7 +11,7 @@ function calculations(operation) {
         result = num1 * num2;
     } else if (operation === '/') {
         if (num2 === 0) {
-            alert("Cannot divide by zero");
+            alert("Cannot be divide by zero");
             return;
         }
         result = num1 / num2;
