@@ -1,0 +1,109 @@
+/* CSS for Assignment 02 */
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 14px 0;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+
+a,
+p,
+li {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 13px;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+p,
+li {
+  color: #34495e;
+}
+
+.bottom li {
+  list-style: none;
+}
+
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.heading{
+  font-size: 30px;
+}
+
+.heading, .leftbody, .bottom{
+  text-transform: uppercase;
+}
+
+#header{
+  position: fixed;
+  width: 790px;
+  height: 60px;
+  top: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: #abb2b9;
+  z-index: 1;
+}
+
+img{
+  border: 2px solid #2c3e50;
+}
+
+#content {
+  position: relative;
+  top: 60px;
+}
+
+.leftbody {
+  float: left;
+  width: 150px;
+  height: 800px;
+  background-color: #34495e;
+  padding: 15px;
+}
+
+.leftbody h2 {
+  color: #abb2b9;
+}
+
+.rightbody {
+  float: right;
+  width: 590px;
+  height: 800px;
+  background-color: #eaecee;
+  padding: 15px;
+}
+
+.rightbody ol {
+  padding-left: 25px;
+}
+
+.bottom {
+  height: 145px;
+  clear: left;
+  padding: 15px;
+  background-color: #d6dbdf;
+}
+
+.socialContent {
+  position: absolute;
+  bottom: 9px;
+  left: 180px;
+}
