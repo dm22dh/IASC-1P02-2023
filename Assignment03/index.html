@@ -7,64 +7,175 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta content="en-us" http-equiv="Content-Language" />
     <title>Assignment 03</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
 
     <div id="wrapper">
-      <div id="header">
-        <h2 class="heading">YALE SCHOOL OF ART</h2>
+  <div id="header">
+    <div class="headerLeft">
+      <h2 class="heading">YALE SCHOOL OF ART</h2>
+    </div>
+    <div class="headerRight">
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" class="searchBox">
+          <i class="fa fa-search"></i>
+        </form>
       </div>
-
-      <div id="content">
-        <div class="leftbody">
-          <h2>Navbar</h2>
-          <div class="links">
-            <a href="https://brocku.ca">Brock University</a>
-            <a href="example.html">Page 2</a>
-            <a href="#bottom">Show Footer</a>
-          </div>
-        </div>
-        <div class="rightbody">
-          <h2>Content</h2>
-          <div><img src="https://images.pexels.com/photos/3509410/pexels-photo-3509410.jpeg" width="200" alt="house" />
-            <img src="image/scene.jpeg" width="200" alt="house" />
-          </div>
-          <div>
-            <ol>
-              <li>This assignment contains content created using HTML and CSS.</li>
-              <li>At the top, there is a fixed positioned header with title of the assignment</li>
-              <li>To the left is the navigation bar that contains absolute and relative links and a in-page anchor</li>
-              <li>To the right is the content section that contains 2 images and description of the assignment</li>
-              <li>To the bottom is the footer that contains basic footer content.</li>
-            </ol>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel luctus odio. Cras porta sagittis justo pharetra dapibus. Curabitur accumsan vel sapien et semper. Proin porta mi suscipit enim varius, ac viverra tellus ultrices. Curabitur nec quam urna. Ut blandit tincidunt turpis pharetra vehicula. Duis vitae pharetra risus. Vivamus lacus neque, lacinia facilisis tortor a, dignissim commodo neque. Donec eget suscipit massa. Nulla facilisi. Praesent sapien nisi, iaculis eu mattis eget, iaculis sed nisi. Nam quis leo ut metus mollis cursus nec eget nunc. Suspendisse quis sapien dui. Quisque interdum sodales finibus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus purus, porta a eros et, dictum faucibus ex. Aenean non hendrerit tellus, ac maximus tellus. Ut at dolor eget nisl feugiat sagittis id pulvinar augue. Maecenas imperdiet augue at metus efficitur placerat. Vivamus libero augue, tincidunt ac sagittis et, sodales vel nibh. </p>
-          </div>
-
-        </div>
-        <div class="bottom">
-          <h2>Footer</h2>
-          <div>
-            <h4>Quick Links</h4>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Blogs</li>
-            </ul>
-          </div>
-          <div class="socialContent">
-            <h4>Follow Us</h4>
-            <ul>
-              <li>Instagram</li>
-              <li>Facebook</li>
-              <li>Linkedin</li>
-            </ul>
-          </div>
-        </div>
+      <div>
+        <button class="linksBtn">Quick Links +</button>
       </div>
     </div>
+  </div>
+
+  <div id="content">
+    <div class="leftbody">
+      <div class="links">
+        <a href="https://brocku.ca">About the School</a>
+        <a href="example.html">Apply</a>
+        <a href="#bottom">Exhibitions</a>
+        <a href="#bottom">Publications</a>
+        <a href="example.html">News</a>
+        <a href="#bottom">Public Events</a>
+        <div>
+          <h2>Calendars</h2>
+          <ul>
+            <li>Public Calendar ></li>
+            <li>School of Art in the World ></li>
+            <li>Community Calendar ></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Newsletter</h2>
+          <ul>
+            <li>News from New Haven -<span>A public monthly newsletter about news and events happening on campus.</span></li>
+            <li>Week at SoA - <span>A weekly community-only email listing SoA events as well as public and university events in New Haven.</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="rightbody">
+      <div class="introSection">
+        <p>The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
+        <button class="learnBtn">Learn More</button>
+      </div>
+
+      <div>
+        <h2>2023 Admissions Open House Videos are Live</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/smn0Rx65Lzc?si=n2T2N5QeWYec26gx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class="bulletinBoard">
+        <h2>Community Bulletin Board</h2>
+        <div class="boardSection">
+          <div class="boardSubSection">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie pharetra pulvinar. Nunc consequat lacus quis mi gravida tempus. Aenean at turpis felis. Aliquam hendrerit semper nulla, vitae dictum diam hendrerit et. Vestibulum eu ultrices risus, eget convallis leo. In mi felis, condimentum eu neque ut, egestas semper nibh. Quisque ligula augue, vulputate id tincidunt sagittis, vestibulum id augue. Aliquam posuere lectus ac justo faucibus suscipit. </p>
+            <div class="editorStyle">
+              <div class="personImg"></div>
+              <div class="editorName">
+                <p>Name of the person</p>
+                <p>University Professor</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="boardSubSection">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie pharetra pulvinar. Nunc consequat lacus quis mi gravida tempus. Aenean at turpis felis. Aliquam hendrerit semper nulla, vitae dictum diam hendrerit et. Vestibulum eu ultrices risus, eget convallis leo. In mi felis, condimentum eu neque ut, egestas semper nibh. Quisque ligula augue, vulputate id tincidunt sagittis, vestibulum id augue. Aliquam posuere lectus ac justo faucibus suscipit. </p>
+            <div class="editorStyle">
+              <div class="personImg"></div>
+              <div class="editorName">
+                <p>Name of the person</p>
+                <p>University Professor</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cardContainer">
+        <div class="flexbox card">
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University-of-Alabama-EngineeringResearchCenter-01.jpg" width=250 height=150>
+          </div>
+          <div class="cardContent">
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie pharetra pulvinar.</p>
+          </div>
+        </div>
+        <div class="flexbox card">
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University-of-Alabama-EngineeringResearchCenter-01.jpg" width=250 height=150>
+          </div>
+          <div class="cardContent">
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie pharetra pulvinar.</p>
+          </div>
+        </div>
+        <div class="flexbox card">
+          <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/University-of-Alabama-EngineeringResearchCenter-01.jpg" width=250 height=150>
+          </div>
+          <div class="cardContent">
+            <h3>Heading 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie pharetra pulvinar.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="bottom">
+      <div>
+        <div class="schoolAddress">
+          <h2>Yale School Of Art</h2>
+          <p>1156 Chapel Street, POB 208339</p>
+          <p>New Haven, Connecticut, 06520-8339</p>
+        </div>
+        <div class="socialContent">
+          <h4>Follow Us</h4>
+          <div class="flexbox">
+            <button class="socialBtn"><svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 448 512" fill="white"><!--!Font Awesome Free 6.5.1 by @fontawesom - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></button>
+            <button class="socialBtn facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="20" viewBox="0 0 320 512" fill="white"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+            </button>
+            <button class="socialBtn twitter"><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512" fill="white"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footerLeftContent">
+        <ul>
+          <li>Support the School</li>
+          <li>Visiting</li>
+          <li>ACCESSEBILITY AT YALE</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+            <div class="footerRightContent">
+        <ul>
+          <li>Support the School</li>
+          <li>Visiting</li>
+          <li>ACCESSEBILITY AT YALE</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <hr>
+      <p>@Copyrights. All Right Reserved</p>
+
+    </div>
+
+
+  </div>
+</div>
 
   </body>
 

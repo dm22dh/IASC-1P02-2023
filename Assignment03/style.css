@@ -12,8 +12,8 @@ h4 {
 a,
 p,
 li {
-  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 13px;
+  list-style: none;
 }
 
 a {
@@ -28,42 +28,63 @@ ol {
   padding: 0;
 }
 
-p,
-li {
+p {
   color: #34495e;
+}
+
+.flexbox {
+  display: flex;
 }
 
 .bottom li {
   list-style: none;
+  color: white;
+  margin: 20px 0;
 }
 
 #wrapper {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   background-color: white;
 }
 
-.heading{
-  font-size: 30px;
+.heading {
+  font-size: 28px;
+  color: white;
 }
 
-.heading, .leftbody, .bottom{
+.heading,
+.leftbody,
+.bottom {
   text-transform: uppercase;
 }
 
-#header{
+#header {
   position: fixed;
-  width: 790px;
-  height: 60px;
+  width: 1170px;
+  height: 38px;
   top: 0;
-  text-align: center;
-  padding: 5px;
-  background-color: #abb2b9;
+  padding: 15px;
+  background-color: black;
   z-index: 1;
+  display: flex;
+  align-items: center;
 }
 
-img{
-  border: 2px solid #2c3e50;
+.headerLeft {
+  width: 50%;
+}
+
+.headerRight {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  padding: 5px;
 }
 
 #content {
@@ -73,22 +94,32 @@ img{
 
 .leftbody {
   float: left;
-  width: 150px;
-  height: 800px;
-  background-color: #34495e;
+  width: 185px;
+  height: 1750px;
   padding: 15px;
+  color: black;
+  background-color: #eaecee;
 }
 
-.leftbody h2 {
-  color: #abb2b9;
+.leftbody a {
+  color: black;
+  font-size: 15px;
+}
+
+.leftbody li {
+  margin-top: 18px;
 }
 
 .rightbody {
   float: right;
-  width: 590px;
-  height: 800px;
-  background-color: #eaecee;
+  width: 955px;
+  height: 1750px;
   padding: 15px;
+  text-align: center;
+}
+
+.rightbody p {
+  font-size: 20px;
 }
 
 .rightbody ol {
@@ -96,14 +127,178 @@ img{
 }
 
 .bottom {
-  height: 145px;
+  height: 320px;
   clear: left;
-  padding: 15px;
-  background-color: #d6dbdf;
+  padding: 30px 6rem 20px;
+  background-color: black;
 }
 
-.socialContent {
-  position: absolute;
-  bottom: 9px;
-  left: 180px;
+.bottom h2,
+h4 {
+  color: white;
+}
+
+.bottom p {
+  color: white;
+}
+
+.footerLeftContent {
+  position: relative;
+  float: right;
+  bottom: 16rem;
+  right: 14rem;
+}
+
+.socialContent{
+  margin-top: 3rem;
+}
+
+.socialBtn{
+  margin: 8px 0;
+  padding: 8px 10px;
+              background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            color: white;
+            border-radius: 35px;
+            display: block;
+}
+
+.facebook{
+    margin: 8px 14px;
+    padding: 8px 15px;
+}
+
+.twitter{
+  padding: 5px 12px;
+}
+
+.footerRightContent {
+  position: relative;
+  float: right;
+  bottom: 16rem;
+  left: 9rem;
+}
+
+hr{
+  overflow: visible;
+    margin-top: 2rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.searchBox {
+  padding: 8px;
+  width: 12rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.fa-search {
+  position: relative;
+  right: 25px;
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 4px;
+  display: block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.learnBtn {
+  margin: 0 auto;
+}
+
+.introSection {
+  margin-bottom: 4rem;
+}
+
+.introSection h2 {
+  margin-bottom: 2rem;
+}
+
+.boardSection {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.boardSection p {
+  font-size: 17px;
+}
+
+.bulletinBoard {
+  background-color: #e3ffff;
+  padding: 15px 0px;
+  margin-top: 3rem;
+}
+
+.personImg {
+  background: #eaecee;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.editorStyle {
+  display: flex;
+  align-items: center;
+}
+
+.editorName {
+  padding-left: 20px;
+}
+
+.editorName p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.boardSubSection {
+  width: 40%;
+  margin: 10px 15px 10px 15px;
+}
+
+.cardContainer {
+  margin: 4rem 1rem;
+  text-align: left;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.cardContent {
+  padding-left: 20px;
+}
+
+.cardContent p {
+  font-size: 17px;
+}
+
+.schoolAddress p{
+  text-transform: none;
+  font-size: 15px;
 }
