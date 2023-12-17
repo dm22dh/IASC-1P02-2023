@@ -18,30 +18,12 @@ li {
 
 }
 
-a {
-  display: block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: white;
-}
-
-ul,
-ol {
-  padding: 0;
-}
-
 p {
   color: #34495e;
 }
 
 .flexbox {
   display: flex;
-}
-
-.bottom li {
-  list-style: none;
-  color: white;
-  margin: 20px 0;
 }
 
 #wrapper {
@@ -112,106 +94,6 @@ button {
   margin-top: 18px;
 }
 
-.calendarSection{
-  margin-top: 4rem;
-}
-
-.calendarSection li{
-    margin-top: 30px;
-    text-transform: none;
-    font-size: 15px;
-}
-
-.newsletterSection{
-  margin-top: 4rem;
-}
-
-.newsletterSection li{
-    margin-top: 30px;
-    text-transform: none;
-    font-size: 15px;
-}
-
-.rightbody {
-  float: right;
-  width: 955px;
-  height: 1700px;
-  padding: 15px;
-  text-align: center;
-}
-
-iframe{
-  margin-top: 1rem;
-}
-
-.rightbody p {
-  font-size: 20px;
-}
-
-.rightbody ol {
-  padding-left: 25px;
-}
-
-.bottom {
-  height: 320px;
-  clear: left;
-  padding: 30px 6rem 20px;
-  background-color: black;
-}
-
-.bottom h2,
-h4 {
-  color: white;
-}
-
-.bottom p {
-  color: white;
-}
-
-.footerLeftContent {
-  position: relative;
-  float: right;
-  bottom: 16rem;
-  right: 14rem;
-}
-
-.socialContent{
-  margin-top: 3rem;
-}
-
-.socialBtn{
-  margin: 8px 0;
-  padding: 8px 10px;
-              background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%);
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            color: white;
-            border-radius: 35px;
-            display: block;
-}
-
-.facebook{
-    margin: 8px 14px;
-    padding: 8px 15px;
-}
-
-.twitter{
-  padding: 5px 12px;
-}
-
-.footerRightContent {
-  position: relative;
-  float: right;
-  bottom: 16rem;
-  left: 9rem;
-}
-
-hr{
-  overflow: visible;
-    margin-top: 2rem;
-}
-
 .search-container {
   display: flex;
   align-items: center;
@@ -251,80 +133,4 @@ button:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
-}
-
-.learnBtn {
-  margin: 0 auto;
-}
-
-.introSection {
-  margin-bottom: 4rem;
-}
-
-.introSection h2 {
-  margin-bottom: 2rem;
-}
-
-.boardSection {
-  display: flex;
-  text-align: left;
-  justify-content: center;
-}
-
-.boardSection p {
-  font-size: 17px;
-}
-
-.bulletinBoard {
-  background-color: #e3ffff;
-  padding: 15px 0px;
-  margin-top: 3rem;
-}
-
-.personImg {
-  background: #eaecee;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.editorStyle {
-  display: flex;
-  align-items: center;
-}
-
-.editorName {
-  padding-left: 20px;
-}
-
-.editorName p {
-  font-size: 15px;
-  margin: 0;
-}
-
-.boardSubSection {
-  width: 40%;
-  margin: 10px 15px 10px 15px;
-}
-
-.cardContainer {
-  margin: 4rem 1rem;
-  text-align: left;
-}
-
-.card {
-  margin-bottom: 30px;
-}
-
-.cardContent {
-  padding-left: 20px;
-}
-
-.cardContent p {
-  font-size: 17px;
-}
-
-.schoolAddress p{
-  text-transform: none;
-  font-size: 15px;
 }
