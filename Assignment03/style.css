@@ -95,8 +95,8 @@ button {
 .leftbody {
   float: left;
   width: 185px;
-  height: 1750px;
-  padding: 15px;
+  height: 1650px;
+  padding: 22px 15px;
   color: black;
   background-color: #eaecee;
 }
@@ -104,18 +104,43 @@ button {
 .leftbody a {
   color: black;
   font-size: 15px;
+  padding: 8px 0;
 }
 
 .leftbody li {
   margin-top: 18px;
 }
 
+.calendarSection{
+  margin-top: 4rem;
+}
+
+.calendarSection li{
+    margin-top: 30px;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.newsletterSection{
+  margin-top: 4rem;
+}
+
+.newsletterSection li{
+    margin-top: 30px;
+    text-transform: none;
+    font-size: 15px;
+}
+
 .rightbody {
   float: right;
   width: 955px;
-  height: 1750px;
+  height: 1650px;
   padding: 15px;
   text-align: center;
+}
+
+iframe{
+  margin-top: 1rem;
 }
 
 .rightbody p {
