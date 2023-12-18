@@ -89,10 +89,11 @@ li {
 
 .hero-container-2 {
   /* background-color: red; */
-  background: url("../img/elderly_01.jpeg");
+  background: url("./images/elderly_01.jpeg");
   background-size: cover;
   background-position: center;
   min-height: 38em;
+  opacity: 90%;
 }
 
 .content-style-2 h1 {
@@ -102,14 +103,24 @@ li {
 .content-style-2 {
   position: relative;
   float: right;
-  top: 9em;
+  top: 10rem;
+  right: 5rem;
   text-align: right;
   width: 40%;
+}
+
+.content-style-2 h2{
+  color: white;
+  font-size: 35px;
 }
 
 .content-style-2 button {
   background-color: #8c6c57 !important;
   border: none;
+  padding: 15px 20px;
+  font-size: 19px;
+  color: white;
+  margin-top: 16px;
 }
 
 .newsletterSection {
