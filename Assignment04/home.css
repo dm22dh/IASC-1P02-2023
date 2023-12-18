@@ -57,3 +57,72 @@ li {
   font-weight: 100;
   margin-top: 4rem;
 }
+
+.first-hero-banner {
+  background-color: #c8bdbb;
+  border: none;
+  border-radius: 0;
+  padding: 7em;
+  text-align: center;
+}
+
+.first-hero-banner h1 {
+  padding-bottom: 22px;
+}
+
+.hero-banner-1-button {
+  background-color: #8c6c57 !important;
+  border: none !important;
+  padding: 11px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+}
+
+.topicsSection h2 {
+  text-align: center;
+}
+
+.topicsContainer {
+  margin: 2rem 4rem 4rem;
+}
+
+.hero-container-2 {
+  /* background-color: red; */
+  background: url("../img/elderly_01.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 38em;
+}
+
+.content-style-2 h1 {
+  color: white;
+}
+
+.content-style-2 {
+  position: relative;
+  float: right;
+  top: 9em;
+  text-align: right;
+  width: 40%;
+}
+
+.content-style-2 button {
+  background-color: #8c6c57 !important;
+  border: none;
+}
+
+.newsletterSection {
+  width: 53%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+
+.left{
+  width: 50%;
+}
+
+.right{
+  width: 50%;
+}
