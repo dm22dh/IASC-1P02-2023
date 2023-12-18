@@ -40,6 +40,10 @@ a{
     width: 45%;
 }
 
+form{
+  margin: 2rem 0;
+}
+
 input{
   padding: 10px 33px;
       width: 85%;
