@@ -25,6 +25,7 @@ a{
 .left-content{
     display: flex;
     margin-top: 8%;
+    justify-content: center;
 }
 
 .left-content img{
