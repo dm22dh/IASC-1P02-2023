@@ -126,3 +126,42 @@ li {
 .right{
   width: 50%;
 }
+
+.option-image{
+    width: 65%;
+}
+
+.option-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 4rem 0rem 0rem;
+}
+
+.option-card{
+    width: 30%;
+    /* padding: 10px 30px; */
+}
+
+.option-card h2{
+    line-height: 3;
+}
+
+.option-card p{
+    font-size: 19px;
+}
+
+.community-heading{
+    text-align: center;
+    margin: 3rem 2rem 6rem;
+}
+
+
+.community-footer{
+    margin-top: 8rem;
+}
+
+.community-footer p{
+    font-size: 15px;
+    color: grey;
+    margin-left: 20px;
+}
