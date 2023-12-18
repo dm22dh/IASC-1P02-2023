@@ -51,3 +51,13 @@ input{
     left: 29px;
     color: grey;
 }
+
+.settingsContainer img{
+  width: 45%;
+    padding-top: 5px;
+}
+
+
+.settingsContainer h4{
+    margin-top: 2rem;
+}
