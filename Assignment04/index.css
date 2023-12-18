@@ -31,12 +31,13 @@
 }
 
 input{
-  padding: 10px;
-  width: 85%;
+  padding: 10px 33px;
+      width: 85%;
+      color: grey;
 }
 
 .fa-search{
   position: relative;
-    right: 29px;
+    left: 29px;
     color: grey;
 }
