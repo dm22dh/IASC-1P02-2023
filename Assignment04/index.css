@@ -45,9 +45,10 @@ form{
 }
 
 input{
-  padding: 10px 33px;
-      width: 85%;
-      color: grey;
+  padding: 14px 33px;
+  width: 70%;
+  color: grey;
+  font-size: 15px;
 }
 
 .fa-search{
