@@ -51,6 +51,14 @@ a{
   width: 40%;
 }
 
+.mainLeft h2{
+  font-weight: 100 !important;
+}
+
+.mainLeft-sub-heading{
+  font-weight: 100;
+}
+
 .main-page-right{
     background-image: url("images/homepage-banner_02.jpeg");
     background-size: cover;
@@ -61,10 +69,16 @@ a{
 
 form{
   margin: 2rem 0;
+  display: flex;
+    justify-content: center;
+}
+
+.form-btn{
+  width: 24%;
 }
 
 input{
-  padding: 14px 33px;
+  padding: 15px 18px;
   width: 50%;
   color: grey;
   font-size: 15px;
@@ -100,4 +114,5 @@ input{
 hr{
   width: 50%;
   border: 2px solid white;
+  margin: 2rem auto 4rem;
 }

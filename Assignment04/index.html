@@ -9,13 +9,9 @@
     <title>Assignment 04</title>
     <link href="index.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="script.js"></script>
 
     <script>
-      function showName(e){
-    var firstName= document.getElementById("firstname").value;
-    // var lastName = document.getElementById("lastname").value;
-    document.getElementById("show").innerText = "Welcome" + " " + firstName+" " + "!";        
-}
     </script>
   </head>
 
@@ -27,22 +23,21 @@
 
         <div class="main-page">
             <div class="mainLeft">
-                <h1>iCan - Friendly Tech Companion for Seniors!</h1>
+                <h1>iCan - <span class="mainLeft-sub-heading">Friendly Tech Companion for Seniors!</span></h1>
 
                 <hr />
 
                 <div>
 
                   <h2>Hello! Please enter your name to get started.</h2>
-                    <form>
-                      <label>Enter your name:</label>
-                      <input type= "text" id="firstname" name="firstname"><br> <br>
+                    <form action="home.html">
+                      <input type= "text" id="firstname" name="firstname">
                       <!-- Last name: <input type= "text" id="lastname" name="lastname"> <br> <br> <br> -->
-                      <input type = "button" onclick="showName()" value="Get Started">
+                      <input type = "button" onclick="showName()" value="Get Started" class="form-btn">
                     </form>
                 </div>
 
-                <span id="show"></span>
+                <span id="show-name"></span>
 
                 <div class="left-content">
                     <div>
@@ -50,11 +45,6 @@
                             <img src="images/home-icon.png"></img>
                             <h4>HOME</h4>
                         </a>
-                    </div>
-
-                    <div class="settingsContainer">
-                        <img src="images/settings-icon.png"></img>
-                        <h4>SETTINGS</h4>
                     </div>
 
                     <div class="contactUsContainer">
