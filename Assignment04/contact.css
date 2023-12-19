@@ -34,6 +34,7 @@ li {
   background-color: #cccccc;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .extraOptions {
@@ -54,15 +55,43 @@ li {
 .heading h2 {
   text-align: center;
   font-size: 35px;
-  font-weight: 100;
+  font-weight: bold;
   margin-top: 4rem;
 }
 
 table, th, td {
-  border:1px solid black;
+  border: 1px solid black;
   border-collapse: collapse;
+  border: none;
+  width: 40%;
 }
 
 table{
   width: 100%;
+}
+
+.contact-options-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5rem;
+}
+
+.contact-card{
+  width: 25%;
+}
+
+.contact-card p{
+  font-size: 19px;
+  line-height: 2;
+}
+
+.contact-card button{
+  padding: 10px 23px;
+    font-size: 17px;
+    border: none;
+    background-color: #4F83B8;
+    color: white;
+    border-radius: 4px;
+    margin-top: 2rem;
 }
