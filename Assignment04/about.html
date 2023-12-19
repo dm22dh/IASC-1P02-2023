@@ -17,17 +17,13 @@
 
       <div id="header" class="flexbox">
         <div class="headerLeft">
-          <h2 class="logo">iCan</h2>
+          <a href="home.html"><h2 class="logo">iCan</h2></a>
         </div>
         <div>
           <a href="./about.html">About Us</a>
           <a href="./contact-us.html">Contact Us</a>
         </div>
-        <div class="extraOptions">
-          <a>Search</a>
-          <a>Login</a>
-          <a>Settings</a>
-        </div>
+        <div id="MyClockDisplay" class="clock" onload="showTime()">Time:</div>
       </div>
 
       <div class="content">
@@ -40,7 +36,7 @@
           </div>
         </div>
 
-        <div>
+        <div style="margin-bottom: 8rem;">
           <div class="about-card">
             <div class="about-card-img">
               <img src="./images/guides-icon.png" />
@@ -85,10 +81,47 @@
 
         </div>
 
+        <div style="margin-top: 16rem;">
+          <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon-container">
+              <li class="social-icons"><a class="social-icon-link" href="#">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+              <li class="social-icons"><a class="social-icon-link" href="#">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+              <li class="social-icons"><a class="social-icon-link" href="#">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a></li>
+              <li class="social-icons"><a class="social-icon-link" href="#">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            </ul>
+            <ul class="menu-container">
+              <li class="menu-options"><a class="menu-link" href="home.html">Home</a></li>
+              <li class="menu-options"><a class="menu-link" href="about.html">About</a></li>
+              <li class="menu-options"><a class="menu-link" href="#">Privacy Policy</a></li>
+              <li class="menu-options"><a class="menu-link" href="#">Terms & Conditions</a></li>
+              <li class="menu-options"><a class="menu-link" href="contact-us.html">Contact</a></li>
+        
+            </ul>
+            <p>&copy;2023 iCan | All Rights Reserved</p>
+          </footer>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>
+
       </div>
 
     </div>
 
+    <script src="script.js"></script>
   </body>
 
 </html>
