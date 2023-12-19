@@ -21,8 +21,8 @@ li {
 }
 
 .logo {
-  font-size: 40px;
-  margin: 0 45px;
+  font-size: 40px !important;
+  margin: 0 45px !important;
 }
 
 .clock {
@@ -273,7 +273,7 @@ li {
 }
 
 
-footer {
+.footer {
   position: relative;
   background: #3586ff;
   min-height: 100px;
@@ -325,7 +325,7 @@ footer {
   opacity: 1;
 }
 
-footer p {
+.footer p {
   color: #fff;
   margin: 15px 0 10px 0;
   font-size: 1rem;
@@ -374,19 +374,11 @@ footer p {
 }
 
 @keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+  0% {background-position-x: 1000px;}
+  100% {background-position-x: 0px;}
 }
 
 @keyframes animate {
-  0% {
-    background-position-x: -1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+  0% {background-position-x: -1000px;}
+  100% {background-position-x: 0px;}
 }

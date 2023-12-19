@@ -10,6 +10,7 @@ function showName(){
     }, 3000);
 }
 
+
 function showTime(){
     var date = new Date();
     var hour = date.getHours();
@@ -38,4 +39,8 @@ function showTime(){
     
 }
 
-showTime();
+// showTime();
+
+window.onload = function() { 
+    showTime()
+}

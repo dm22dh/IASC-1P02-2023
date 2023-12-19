@@ -21,8 +21,8 @@ li {
 }
 
 .logo {
-  font-size: 40px;
-  margin: 0 45px;
+  font-size: 40px !important;
+  margin: 0 45px !important;
 }
 
 .clock {
@@ -210,19 +210,11 @@ table{
 }
 
 @keyframes animateWaves {
-  0% {
-    background-position-x: 1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+  0% {background-position-x: 1000px;}
+  100% {background-position-x: 0px;}
 }
 
 @keyframes animate {
-  0% {
-    background-position-x: -1000px;
-  }
-  100% {
-    background-positon-x: 0px;
-  }
+  0% {background-position-x: -1000px;}
+  100% {background-position-x: 0px;}
 }
