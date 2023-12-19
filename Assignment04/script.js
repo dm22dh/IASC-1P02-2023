@@ -1,14 +1,20 @@
-function showName(e){
-    var firstName= document.getElementById("firstname").value;
+function showName(){
+    var firstName = document.getElementById("firstname").value;
     // var lastName = document.getElementById("lastname").value;
-    document.getElementById("show-name").innerText = "Welcome" + " " + firstName+" " + "!";        
+    document.getElementById("show-name").innerText = "Welcome" + " " + firstName+" " + "!"; 
+
+    document.getElementById("name-form").hidden = true;
+    document.getElementById("show-timer").innerText = "You will be redirected to the Home page in 3 seconds."; 
+    setTimeout(function() {
+    window.location = "./home.html";
+    }, 3000);
 }
 
 function showTime(){
     var date = new Date();
-    var hour = date.getHours(); // 0 - 23
-    var minute = date.getMinutes(); // 0 - 59
-    var second = date.getSeconds(); // 0 - 59
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    var second = date.getSeconds(); 
     var session = "AM";
     
     if(hour == 0){

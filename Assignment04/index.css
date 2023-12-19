@@ -43,7 +43,7 @@ a{
 
 .left-content{
     display: flex;
-    margin-top: 8%;
+    margin-top: 20%;
     justify-content: center;
 }
 
@@ -115,4 +115,14 @@ hr{
   width: 50%;
   border: 2px solid white;
   margin: 2rem auto 4rem;
+}
+
+
+.message-box{
+  margin: 3rem;
+}
+
+.message-box p{
+  font-size: 18px;
+  margin-top: 2rem;
 }
