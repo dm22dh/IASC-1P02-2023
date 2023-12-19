@@ -4,10 +4,10 @@ function showName(){
     document.getElementById("show-name").innerText = "Welcome" + " " + firstName+" " + "!"; 
 
     document.getElementById("name-form").hidden = true;
-    document.getElementById("show-timer").innerText = "You will be redirected to the Home page in 3 seconds."; 
+    document.getElementById("show-timer").innerText = "You will be redirected to the Home page in 5 seconds."; 
     setTimeout(function() {
     window.location = "./home.html";
-    }, 3000);
+    }, 5000);
 }
 
 
