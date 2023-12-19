@@ -1,3 +1,22 @@
+/* CSS for Assignment 04 */
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 14px 0;
+}
+
+a,
+p,
+li,
+label {
+  font-size: 13px;
+  list-style: none;
+  font-family: Verdana, sans-serif;
+}
+
+
 a{
   color: white;
   text-decoration: none;
@@ -46,7 +65,7 @@ form{
 
 input{
   padding: 14px 33px;
-  width: 70%;
+  width: 50%;
   color: grey;
   font-size: 15px;
 }
@@ -76,4 +95,9 @@ input{
 
 .contactUsContainer{
   margin-top: 4px;
+}
+
+hr{
+  width: 50%;
+  border: 2px solid white;
 }
