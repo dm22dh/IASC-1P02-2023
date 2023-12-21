@@ -176,6 +176,15 @@ h4 {
   right: 14rem;
 }
 
+.fa{
+  font-size: 26px !important;
+}
+
+.cardContainer img{
+  width: 250px;
+  height: 150px;
+}
+
 .socialContent{
   margin-top: 3rem;
 }
@@ -195,10 +204,6 @@ h4 {
 .facebook{
     margin: 8px 14px;
     padding: 8px 15px;
-}
-
-.twitter{
-  padding: 5px 12px;
 }
 
 .footerRightContent {
